@@ -1,0 +1,72 @@
+.button {
+  display: block;
+  min-width: 150px;
+  padding: 22px 40px;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  font-family: $ff-roboto;
+  text-align: center;
+  color: $dark;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: transparent;
+  border: 2px solid $dark;
+  cursor: pointer;
+
+  &--main {
+    color: $white-basic;
+
+    border: 2px solid $white-basic;
+
+    &:hover {
+      color: $text-extra;
+
+      background-color: $white-basic;
+    }
+
+    &:focus {
+      color: $text-extra;
+
+      background-color: rgba(255, 255, 255, 0.8);
+      border-color: #000000;
+      outline: transparent;
+    }
+
+    &:focus:not(:focus-visible) {
+      color: $dark;
+
+      background-color: $white-basic;
+      border-color: $white-basic;
+      outline: transparent;
+    }
+
+    &:focus-visible {
+      color: $text-extra;
+
+      background-color: rgba(255, 255, 255, 0.8);
+      border-color: #000000;
+      outline: transparent;
+    }
+
+    &:active {
+      color: $dark;
+
+      background-color: $white-basic;
+      border-color: $white-basic;
+    }
+  }
+
+  &--main-disabled,
+  &--main-disabled:focus {
+    color: $white-basic;
+
+    background-color: transparent;
+    border: 2px solid $white-basic;
+    opacity: 0.5;
+
+    pointer-events: none;
+  }
+}

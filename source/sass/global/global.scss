@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: $ff-roboto;
+  color: $dark;
+
+  background-color: $white-extra;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+  object-fit: scale-down;
+}
