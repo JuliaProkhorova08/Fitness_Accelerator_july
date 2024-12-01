@@ -1,17 +1,13 @@
 .header {
-  padding-top: 15px;
-  padding-bottom: 32px;
+  padding: 8px 0;
 
-  color: $white-basic;
-
-  background: linear-gradient(to right, #1c3477, #1c3477 0.01%, #1a3578 39.11%, #73184b 75.5%, #b4022a 100%);
+  background-color: $color-grey-card;
 
   @media (min-width: $tablet-width) {
-    padding-top: 30px;
-    padding-bottom: 100px;
+    padding: 26px 0;
   }
 
   @media (min-width: $desktop-width) {
-    padding-bottom: 120px;
+    padding: 40px 0;
   }
 }

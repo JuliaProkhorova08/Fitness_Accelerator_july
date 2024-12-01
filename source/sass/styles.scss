@@ -1,0 +1,23 @@
+/* VENDOR */
+@import "../vendor/normalize.scss";
+
+/* SWIPER */
+@import "../vendor/swiper.scss";
+
+/* GLOBAL */
+@import "./global/fonts.scss";
+@import "./global/variables.scss";
+@import "./global/global.scss";
+@import "./global/utils.scss";
+
+/* BLOCKS */
+@import "./blocks/header.scss";
+@import "./blocks/container.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/about.scss";
+@import "./blocks/title.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/others.scss";
+@import "./blocks/gruz.scss";
+@import "./blocks/order.scss";
+@import "./blocks/footer.scss";

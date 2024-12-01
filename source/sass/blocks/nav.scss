@@ -2,96 +2,62 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 66px;
+}
+
+.nav__info {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 600;
+  text-align: right;
 
   @media (min-width: $tablet-width) {
-    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   @media (min-width: $desktop-width) {
-    align-items: flex-start;
-    margin-bottom: 60px;
+    font-size: 22px;
+    line-height: 28px;
   }
 }
 
-.nav__logo {
-  display: inline-block;
-  min-width: 100px;
-  height: 20px;
-  padding-right: 20px;
-
-  color: $white-basic;
+.nav__list {
+  margin-bottom: 8px;
 
   @media (min-width: $tablet-width) {
-    min-width: 110px;
-    height: 22px;
+    margin-bottom: 18px;
   }
 
   @media (min-width: $desktop-width) {
-    min-width: 130px;
-    height: 26px;
+    margin-bottom: 20px;
   }
 }
 
-.nav__phone {
-  position: relative;
+.nav__list-item:first-child {
+  text-transform: uppercase;
+}
 
-  display: inline-block;
-  align-self: flex-start;
+.nav__button {
+  padding: 8px 9px;
 
   font-weight: 700;
-  font-size: 22px;
-  line-height: 100%;
-  font-family: $ff-roboto;
-  color: $white-basic;
-  text-decoration: none;
-  letter-spacing: 0.003em;
+  font-size: 8px;
+  color: $color-grey-bg;
+  text-transform: uppercase;
+
+  background-color: $color-red;
+  border-radius: 2px;
 
   @media (min-width: $tablet-width) {
-    font-size: 24px;
+    padding: 16px 12px;
+
+    font-size: 15px;
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 2px;
+    padding: 14px 15px;
 
-    font-size: 26px;
-    letter-spacing: 0.001em;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: -6px;
-    left: 0;
-
-    width: 100%;
-    height: 2px;
-
-    background-color: $dark;
-    transform: scale(0);
-  }
-
-  &:hover {
-    color: rgba(28, 51, 116, 0.5);
-  }
-
-  &:focus,
-  &:focus-visible {
-    color: #1c3374;
-  }
-
-  &:active {
-    color: $dark;
-
-    &::after {
-      transform: scale(1);
-    }
-  }
-
-  &:disabled,
-  &--disabled {
-    color: $white-extra;
-
-    pointer-events: none;
+    font-size: 18px;
   }
 }

@@ -1,0 +1,133 @@
+.others__title {
+  margin: 0;
+
+  line-height: 150%;
+}
+
+.others__title br {
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.others__list {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 52px;
+
+  row-gap: 10px;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    max-width: 658px;
+    margin: 0 auto;
+    padding: 40px 0;
+
+    gap: 29px;
+    grid-template-columns: repeat(3, 200px);
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 1261px;
+    padding: 80px 0;
+
+    gap: 30px;
+    grid-template-columns: repeat(3, 400px);
+  }
+}
+
+.others__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 18px;
+
+  background-color: $color-grey-card;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 10px 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 23px 14px 36px;
+  }
+}
+
+.others__item img {
+  margin-bottom: 15px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 40px;
+  }
+}
+
+.others__text {
+  margin: 0;
+  margin-bottom: 15px;
+
+  font-size: 9px;
+  line-height: 130%;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 20px;
+
+    font-size: 12px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 33px;
+
+    font-size: 20px;
+    line-height: 150%;
+  }
+}
+
+.others__text-one {
+  @media (min-width: $tablet-width) {
+    margin-bottom: 35px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 33px;
+  }
+}
+
+.others__text-three {
+  @media (min-width: $tablet-width) {
+    margin-bottom: 66px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 93px;
+  }
+}
+
+.others__button {
+  margin: 0;
+  padding: 6px 11px;
+
+  font-weight: 700;
+  font-size: 10px;
+  color: $color-grey-bg;
+  text-transform: uppercase;
+
+  background-color: $color-red;
+  border-radius: 2px;
+
+  @media (min-width: $tablet-width) {
+    padding: 11px 12px;
+
+    font-size: 14px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 11px 54px;
+
+    font-size: 22px;
+  }
+}
