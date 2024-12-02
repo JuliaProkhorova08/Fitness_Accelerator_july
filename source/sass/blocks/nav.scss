@@ -1,10 +1,10 @@
-.nav {
+.navig {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav__info {
+.navig__info {
   display: flex;
   flex-direction: column;
 
@@ -22,7 +22,7 @@
   }
 }
 
-.nav__list {
+.navig__list {
   margin-bottom: 8px;
 
   @media (min-width: $tablet-width) {
@@ -34,11 +34,11 @@
   }
 }
 
-.nav__list-item:first-child {
+.navig__list-item:first-child {
   text-transform: uppercase;
 }
 
-.nav__button {
+.navig__button {
   padding: 8px 9px;
 
   font-weight: 700;

@@ -15,11 +15,6 @@ export function initSlider() {
     observer: true,
     observeParents: true,
 
-    navigation: {
-      nextEl: '.catalog__button--next',
-      prevEl: '.catalog__button--prev',
-    },
-
     pagination: {
       el: '.catalog__pagination',
       clickable: true,
@@ -31,17 +26,6 @@ export function initSlider() {
         slidesPerView: 1,
         spaceBetween: 20,
         initialSlide: 0,
-      },
-      // when window width is >= 768px
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 40,
-      },
-      // when window width is >= 1440px
-      1440: {
-        slidesPerView: 4,
-        spaceBetween: 40,
-        simulateTouch: false,
       },
     },
   });

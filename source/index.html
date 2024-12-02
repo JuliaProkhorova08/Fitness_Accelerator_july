@@ -16,6 +16,7 @@
   <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="sass/styles.scss">
 
 </head>
@@ -25,9 +26,9 @@
 
     <header class="header">
       <div class="header__container container">
-        <section class="header__nav nav">
+        <section class="header__nav navig">
           <h1 class="visually-hidden">Материалы для ремонта шин и камер MARUNI. Розничная и оптовая поставка по Санкт-Петербургу и России.</h1>
-          <div class="nav__logo">
+          <div class="navig__logo">
             <picture>
               <source type="image/webp" media="(min-width: 1440px)" srcset="images/logo/logo-desktop-header@1x.webp 1x, images/logo/logo-desktop-header@2x.webp 2x" width="500" height="147">
               <source type="image/webp" media="(min-width: 768px)" srcset="images/logo/logo-tablet-header@1x.webp 1x, images/logo/logo-tablet-header@2x.webp 2x" width="307" height="90">
@@ -38,22 +39,22 @@
               <img src="images/logo/logo-mobile-header@1x.png" srcset="images/logo/logo-mobile-header@2x.png 2x" alt="Логотип компании MARUNI." width="120" height="35">
             </picture>
           </div>
-          <div class="nav__info">
-            <ul class="nav__list list-reset">
-              <li class="nav__list-item">ООО "Триаф"</li>
-              <li class="nav__list-item">г. Санкт-Петербург</li>
-              <li class="nav__list-item">
+          <div class="navig__info">
+            <ul class="navig__list list-reset">
+              <li class="navig__list-item">ООО "Триаф"</li>
+              <li class="navig__list-item">г. Санкт-Петербург</li>
+              <li class="navig__list-item">
                 <a href="tel:+78123181935" class="link">тел: +7 (812) 318-19-35</a>
               </li>
-              <li class="nav__list-item">
+              <li class="navig__list-item">
                 <a href="tel:+79110245064" class="link">+7 (911) 024-50-64</a>
               </li>
-              <li class="nav__list-item">
+              <li class="navig__list-item">
                 <a href="mailto:maruni-spb@mail.ru&body=Здравствуйте! Меня интересуют расходники?subject=Запрос с сайта" class="link">e-mail: maruni-spb@mail.ru</a>
               </li>
 
             </ul>
-            <a href="tel:+78123181935" class="nav__button link">получить консультацию</a>
+            <a href="tel:+78123181935" class="navig__button link">получить консультацию</a>
           </div>
         </section>
       </div>
@@ -105,19 +106,6 @@
 
         <div class="catalog__container">
 
-          <button class="catalog__button catalog__button--prev swiper-button swiper-button--prev" type="button" aria-label="Предыдущий слайд.">
-            <svg width="22" height="33" viewBox="0 0 22 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M1 0L16.9967 16L1 32" stroke="#101010" />
-            </svg>
-          </button>
-
-          <button class="catalog__button catalog__button--next swiper-button swiper-button--next" type="button" aria-label="Следующий слайд.">
-            <svg width="22" height="33" viewBox="0 0 22 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M1 0L16.9967 16L1 32" stroke="#101010" />
-            </svg>
-
-          </button>
-
           <div class="catalog__swiper swiper">
             <ul class="catalog__list list-reset swiper-wrapper">
               <!-- 1 card -->
@@ -132,7 +120,7 @@
                   <img src="images/main-mobile/catalog-mobile-01@1x.png" srcset="images/main-mobile/catalog-mobile-01@2x.png 2x" alt="Круглый пластырь для ремонта колёс." width="250" height="141">
                 </picture>
                 <p class="catalog__item-text">Радиальный пластырь<br> <b>RADIAL TIRE PATCH</b></p>
-                <a href="#" class="catalog__item-button link">подробнее</a>
+                <a href="price-01.html" class="catalog__item-button link">подробнее</a>
               </li>
 
               <!-- 2 card -->
@@ -243,6 +231,130 @@
           </div>
 
           <div class="catalog__pagination swiper__pagination"></div>
+        </div>
+
+        <div class="catalog__grid">
+          <ul class="catalog__grid-list list-reset">
+            <!-- 1 card -->
+            <li class="catalog__grid-item">
+              <picture class="catalog__item-img">
+                <source type="image/webp" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-01@1x.webp 1x, images/main-desktop/catalog-desktop-01@2x.webp 2x" width="600" height="338">
+                <source type="image/webp" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-01@1x.webp 1x, images/main-tablet/catalog-tablet-01@2x.webp 2x" width="300" height="169">
+
+                <source type="image/png" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-01@1x.png 1x, images/main-desktop/catalog-desktop-01@2x.png 2x" width="600" height="338">
+                <source type="image/png" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-01@1x.png 1x, images/main-tablet/catalog-tablet-01@2x.png 2x" width="300" height="169">
+
+                <img src="images/main-mobile/catalog-mobile-01@1x.png" srcset="images/main-mobile/catalog-mobile-01@2x.png 2x" alt="Круглый пластырь для ремонта колёс." width="250" height="141">
+              </picture>
+              <p>Радиальный пластырь<br> <b>RADIAL TIRE PATCH</b></p>
+              <a href="price-01.html" class="catalog__item-button link">подробнее</a>
+            </li>
+
+            <!-- 2 card -->
+            <li class="catalog__grid-item">
+              <picture class="catalog__item-img">
+                <source type="image/webp" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-02@1x.webp 1x, images/main-desktop/catalog-desktop-02@2x.webp 2x" width="600" height="338">
+                <source type="image/webp" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-02@1x.webp 1x, images/main-tablet/catalog-tablet-02@2x.webp 2x" width="300" height="169">
+
+                <source type="image/png" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-02@1x.png 1x, images/main-desktop/catalog-desktop-02@2x.png 2x" width="600" height="338">
+                <source type="image/png" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-02@1x.png 1x, images/main-tablet/catalog-tablet-02@2x.png 2x" width="300" height="169">
+
+                <img src="images/main-mobile/catalog-mobile-02@1x.png" srcset="images/main-mobile/catalog-mobile-02@2x.png 2x" alt="Прямоугольный пластырь для ремонта колёс." width="250" height="141">
+              </picture>
+              <p>Универсальный пластырь<br> <b>UNIVERSAL TIRE PATCH</b></p>
+              <a href="#" class="catalog__item-button link">подробнее</a>
+            </li>
+
+            <!-- 3 card -->
+            <li class="catalog__grid-item">
+              <picture class="catalog__item-img">
+                <source type="image/webp" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-03@1x.webp 1x, images/main-desktop/catalog-desktop-03@2x.webp 2x" width="600" height="338">
+                <source type="image/webp" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-03@1x.webp 1x, images/main-tablet/catalog-tablet-03@2x.webp 2x" width="300" height="169">
+
+                <source type="image/png" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-03@1x.png 1x, images/main-desktop/catalog-desktop-03@2x.png 2x" width="600" height="338">
+                <source type="image/png" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-03@1x.png 1x, images/main-tablet/catalog-tablet-03@2x.png 2x" width="300" height="169">
+
+                <img src="images/main-mobile/catalog-mobile-03@1x.png" srcset="images/main-mobile/catalog-mobile-03@2x.png 2x" alt="Камерные заплатки для ремонта колес авто или велосипеда." width="250" height="141">
+              </picture>
+              <p>Заплатки для камер<br> <b>TUBE-PATCH</b></p>
+              <a href="#" class="catalog__item-button link">подробнее</a>
+            </li>
+
+            <!-- 4 card -->
+            <li class="catalog__grid-item">
+              <picture class="catalog__item-img catalog__item-img--4">
+                <source type="image/webp" media="(min-width: 1440px)" srcset="images/main-tablet/catalog-tablet-04@1x.webp 1x, images/main-tablet/catalog-tablet-04@2x.webp 2x" width="516" height="443">
+                <source type="image/webp" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-04@1x.webp 1x, images/main-tablet/catalog-tablet-04@2x.webp 2x" width="300" height="169">
+
+                <source type="image/png" media="(min-width: 1440px)" srcset="images/main-tablet/catalog-tablet-04@1x.png 1x, images/main-tablet/catalog-tablet-04@2x.png 2x" width="516" height="443">
+                <source type="image/png" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-04@1x.png 1x, images/main-tablet/catalog-tablet-04@2x.png 2x" width="300" height="169">
+
+                <img src="images/main-mobile/catalog-mobile-04@1x.png" srcset="images/main-mobile/catalog-mobile-04@2x.png 2x" alt="Грибочки и стерженьки для ремонта колёс." width="180" height="148">
+              </picture>
+              <p>Грибки <b>PLUG PATCH</b> <br>и стержни <b>STEM</b></p>
+              <a href="#" class="catalog__item-button link">подробнее</a>
+            </li>
+
+            <!-- 5 card -->
+            <li class="catalog__grid-item">
+              <picture class="catalog__item-img">
+                <source type="image/webp" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-05@1x.webp 1x, images/main-desktop/catalog-desktop-05@2x.webp 2x" width="600" height="338">
+                <source type="image/webp" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-05@1x.webp 1x, images/main-tablet/catalog-tablet-05@2x.webp 2x" width="300" height="169">
+
+                <source type="image/png" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-05@1x.png 1x, images/main-desktop/catalog-desktop-05@2x.png 2x" width="600" height="338">
+                <source type="image/png" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-05@1x.png 1x, images/main-tablet/catalog-tablet-05@2x.png 2x" width="300" height="169">
+
+                <img src="images/main-mobile/catalog-mobile-05@1x.png" srcset="images/main-mobile/catalog-mobile-05@2x.png 2x" alt="Жгутики для ремонта колёс." width="250" height="141">
+              </picture>
+              <p>Жгуты <b>POWER VALKASEAL</b> <br>для ремонта проколов шин</p>
+              <a href="#" class="catalog__item-button link">подробнее</a>
+            </li>
+
+            <!-- 6 card -->
+            <li class="catalog__grid-item">
+              <picture class="catalog__item-img">
+                <source type="image/webp" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-06@1x.webp 1x, images/main-desktop/catalog-desktop-06@2x.webp 2x" width="600" height="338">
+                <source type="image/webp" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-06@1x.webp 1x, images/main-tablet/catalog-tablet-06@2x.webp 2x" width="300" height="169">
+
+                <source type="image/png" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-06@1x.png 1x, images/main-desktop/catalog-desktop-06@2x.png 2x" width="600" height="338">
+                <source type="image/png" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-06@1x.png 1x, images/main-tablet/catalog-tablet-06@2x.png 2x" width="300" height="169">
+
+                <img src="images/main-mobile/catalog-mobile-06@1x.png" srcset="images/main-mobile/catalog-mobile-06@2x.png 2x" alt="Химические компоненты." width="220" height="137">
+              </picture>
+              <p>Химические компоненты <b>VALKARN, SUPER&nbsp;VALKARN G, SEALINER, TERMO LIQUID, BEAD SEALER, LIQUID BUFFER</b> для ремонта шин и камер</p>
+              <a href="#" class="catalog__item-button link">подробнее</a>
+            </li>
+
+            <!-- 7 card -->
+            <li class="catalog__grid-item">
+              <picture class="catalog__item-img">
+                <source type="image/webp" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-07@1x.webp 1x, images/main-desktop/catalog-desktop-07@2x.webp 2x" width="600" height="338">
+                <source type="image/webp" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-07@1x.webp 1x, images/main-tablet/catalog-tablet-07@2x.webp 2x" width="300" height="169">
+
+                <source type="image/png" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-07@1x.png 1x, images/main-desktop/catalog-desktop-07@2x.png 2x" width="600" height="338">
+                <source type="image/png" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-07@1x.png 1x, images/main-tablet/catalog-tablet-07@2x.png 2x" width="300" height="169">
+
+                <img src="images/main-mobile/catalog-mobile-07@1x.png" srcset="images/main-mobile/catalog-mobile-07@2x.png 2x" alt="Шило, иглы для ремонта колёс." width="250" height="148">
+              </picture>
+              <p>Инструменты<br> <b>MARUNI INDUSTRY CO., LTD.</b></p>
+              <a href="#" class="catalog__item-button link">подробнее</a>
+            </li>
+
+            <!-- 8 card -->
+            <li class="catalog__grid-item">
+              <picture class="catalog__item-img catalog__item-img--8">
+                <source type="image/webp" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-08@1x.webp 1x, images/main-desktop/catalog-desktop-08@2x.webp 2x" width="600" height="338">
+                <source type="image/webp" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-08@1x.webp 1x, images/main-tablet/catalog-tablet-08@2x.webp 2x" width="300" height="169">
+
+                <source type="image/png" media="(min-width: 1440px)" srcset="images/main-desktop/catalog-desktop-08@1x.png 1x, images/main-desktop/catalog-desktop-08@2x.png 2x" width="600" height="338">
+                <source type="image/png" media="(min-width: 768px)" srcset="images/main-tablet/catalog-tablet-08@1x.png 1x, images/main-tablet/catalog-tablet-08@2x.png 2x" width="300" height="169">
+
+                <img src="images/main-mobile/catalog-mobile-08@1x.png" srcset="images/main-mobile/catalog-mobile-08@2x.png 2x" alt="Дорожные наборы для ремонта колёс." width="180" height="137">
+              </picture>
+              <p>Дорожные наборы<br> <b>V-SEAL KIT и QWIK PLUG</b></p>
+              <a href="#" class="catalog__item-button link">подробнее</a>
+            </li>
+          </ul>
         </div>
 
         <p class="catalog__description">Ремонт шин материалами <b>MARUNI</b> необходимо производить с соблюдением технологии ремонта,
