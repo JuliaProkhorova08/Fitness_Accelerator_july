@@ -1,0 +1,35 @@
+.swiper__pagination {
+  margin-top: 20px;
+
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.swiper-pagination-bullet {
+  display: inline-block; /* Отображение в строку */
+  width: 12px; /* Ширина bullet */
+  height: 12px; /* Высота bullet */
+  margin: 0 4px; /* Отступы между bullets */
+
+  background: $color-grey-card; /* Цвет неактивных bullets */
+  border-radius: 50%; /* Круглая форма */
+  opacity: 1;
+
+  /* Полная непрозрачность */
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background: $color-green;
+
+  /* Цвет активного bullet */
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
