@@ -45,6 +45,12 @@
   }
 }
 
+.price__title br {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
 .price__text,
 .price__offer {
   margin: 0;
@@ -101,12 +107,15 @@
 .price__table {
   margin-bottom: 20px;
 
+  font-size: 9px;
   line-height: 10px;
   vertical-align: middle;
   text-align: center;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 40px;
+
+    font-size: 10px;
   }
 
   @media (min-width: $desktop-width) {
@@ -154,5 +163,14 @@
     padding: 11px 68px;
 
     font-size: 22px;
+  }
+}
+
+.text-left {
+  line-height: 160%;
+  text-align: left;
+
+  @media (min-width: $tablet-width) {
+    line-height: 170%;
   }
 }
