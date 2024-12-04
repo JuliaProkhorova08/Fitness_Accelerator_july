@@ -68,3 +68,13 @@
     line-height: 170%;
   }
 }
+
+.td-width-paste {
+  @media (min-width: $tablet-width) {
+    width: 309px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 500px;
+  }
+}

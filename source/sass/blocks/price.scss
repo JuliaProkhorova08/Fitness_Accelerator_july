@@ -87,7 +87,7 @@
 }
 
 .price__offer br:first-child {
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     display: none;
   }
 }
