@@ -13,7 +13,7 @@
     "convert-rastr": "node convert-rastr.js",
     "w3c": "html-validator source --quiet",
     "linthtml": "linthtml source",
-    "html-validate": "html-validate source/index.html",
+    "html-validate": "html-validate source/*.html",
     "lint-bem": "node bem-tree.js",
     "stylelint": "stylelint \"source/sass/**/*.scss\" --fix",
     "lint-js": "eslint source/js --fix",
