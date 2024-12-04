@@ -1,11 +1,3 @@
-.table > :not(caption) > * > * {
-  padding: 0.8rem 0.5rem;
-
-  @media (min-width: $desktop-width) {
-    padding: 1rem 0.5rem;
-  }
-}
-
 .price {
   padding-top: 20px;
 
@@ -163,14 +155,5 @@
     padding: 11px 68px;
 
     font-size: 22px;
-  }
-}
-
-.text-left {
-  line-height: 160%;
-  text-align: left;
-
-  @media (min-width: $tablet-width) {
-    line-height: 170%;
   }
 }

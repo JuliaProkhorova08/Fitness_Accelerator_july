@@ -51,3 +51,20 @@
 .change-color-link:hover {
   color: $color-green; /* Меняем цвет ссылки */
 }
+
+.table > :not(caption) > * > * {
+  padding: 0.8rem 0.5rem;
+
+  @media (min-width: $desktop-width) {
+    padding: 1rem 0.5rem;
+  }
+}
+
+.text-left {
+  line-height: 160%;
+  text-align: left;
+
+  @media (min-width: $tablet-width) {
+    line-height: 170%;
+  }
+}
