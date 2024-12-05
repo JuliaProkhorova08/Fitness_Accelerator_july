@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.navig__logo img {
+  object-fit: fill;
+}
+
 .navig__info {
   display: flex;
   flex-direction: column;

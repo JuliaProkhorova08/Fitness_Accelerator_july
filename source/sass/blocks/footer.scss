@@ -88,6 +88,10 @@
   }
 }
 
+.footer__item img {
+  object-fit: fill;
+}
+
 .footer__map {
   max-width: fit-content;
   margin: 0 auto;
