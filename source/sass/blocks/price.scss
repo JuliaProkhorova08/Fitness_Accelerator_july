@@ -135,15 +135,14 @@
 
   @media (min-width: $tablet-width) {
     display: grid;
-    margin-left: 50px;
+    max-width: 570px;
+    margin: 0 auto;
 
     gap: 30px;
     grid-template-columns: repeat(2, 265px);
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 435px;
-
     gap: 40px;
   }
 }
